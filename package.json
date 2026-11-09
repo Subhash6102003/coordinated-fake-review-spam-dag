@@ -1,0 +1,28 @@
+{
+  "name": "systemflow-e3-review-spam",
+  "version": "1.0.0",
+  "description": "3-gram text shingling, Jaccard similarity clustering, and /24 subnet temporal burst quarantine before product rating distortion.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "text-shingling",
+    "jaccard-similarity",
+    "spam-detection",
+    "dag",
+    "moderation",
+    "network-clustering"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8",
+    "@types/node": "^22.10.1"
+  }
+}
