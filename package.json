@@ -1,5 +1,5 @@
 {
-  "name": "systemflow-e3-review-spam",
+  "name": "coordinated-fake-review-spam-dag",
   "version": "1.0.0",
   "description": "3-gram text shingling, Jaccard similarity clustering, and /24 subnet temporal burst quarantine before product rating distortion.",
   "main": "./dist/index.js",
